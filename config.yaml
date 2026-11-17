@@ -1,0 +1,11 @@
+data_root: /path/to/data
+work_root: /path/to/work
+n_jobs: 16
+models:
+  gigatime: /path/to/models/GigaTIME/model.pth
+  flash: /path/to/models/gigatime-flash/model.pth
+  hex: /path/to/models/hex_nolan48/hex_nolan48.pt
+exclude_slides:
+  - 1009802_271273_ImageActual
+  - TCGA-36-2545-01A-01-TS1.7815572d-7919-46a6-8918-bf631fca30b1
+  - TCGA-61-2612-01A-01-TS1.99d37374-5619-4342-86df-ed7c6c806e1f
